@@ -10,5 +10,8 @@ detail: https://github.com/nevermoe/unity_metadata_loader
     $ cd unity_metadata_loader/unity_decoder
     $ mv libil2cpp_v23 libil2cpp
 
-Rename "libil2cpp_vXX" to "libil2cpp". Open "unity_decoder.sln" using "Visual Studio 2017".
+Rename libil2cpp_vXX to libil2cpp. Open "unity_decoder.sln" using Visual Studio 2017.
 
+## how to load strings and method/class from global-metadata.dat
+
+https://1drv.ms/u/s!ApYX-BnkUapSgn_fj9o7JsJGz7YU
