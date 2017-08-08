@@ -55,3 +55,13 @@ libil2cpp.so in test.apk, have 2 string "This_is_TEST_CODE_1" and "This_is_TEST_
 libil2cpp.so have testcode$$testcode1 class/method, code of testcode1 method is below.
 
 ![](sample.png "sample")
+
+## How to use this script on IDA Demo
+
+IDA Demo doesn't support Python, so install Python2.7 from http://www.python.org/ and idapython from https://github.com/idapython/bin (ex: idapython-6.9.0-python2.7-win.zip).
+
+1. unzip idapython-6.9.0-python2.7-win.zip
+2. Copy the "python" directory to "C:\Program Files (x86)\IDA Demo 6.95\"
+3. Copy the contents of the "plugins" directory to the "C:\Program Files (x86)\IDA Demo 6.95\plugins\"
+4. Copy "python.cfg" to "C:\Program Files (x86)\IDA Demo 6.95\cfg\"
+
