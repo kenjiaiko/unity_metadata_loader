@@ -1,6 +1,7 @@
 # unity_metadata_loader
 
 This project will load strings and method/class names in global-metadata.dat to IDA.
+detail: https://github.com/nevermoe/unity_metadata_loader
 
 ## Introduction
 
