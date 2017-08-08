@@ -4,6 +4,12 @@ This project will load strings and method/class names in global-metadata.dat to 
 
 detail: https://github.com/nevermoe/unity_metadata_loader
 
+## how to use
+
+'''
+aaaa
+'''
+
 ## Introduction
 
 As most game hackers may know, if you use IL2CPP to compile an Unity game, all the strings used in your original source code will be stored separately in another file call `global-metadata.dat` so that you are not able to find any strings when you load the game binary to IDA. Moreover, as the game is compiled to native assembly, all the symbols like class names or function names are removed from the binary. This significantly makes the static analysis of these games more difficult and is usually considered to be un-hackable. However, with this IDA plugin, you are able to recover all the class names, method names and string constants and mapping them to IDA. Hacking unity games becomes incredibly easy.
