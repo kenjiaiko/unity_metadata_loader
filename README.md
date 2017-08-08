@@ -24,9 +24,9 @@ sample apk: https://1drv.ms/u/s!ApYX-BnkUapSgn_fj9o7JsJGz7YU
     $ cd tmp
     $ ./unity_decoder.exe
 
-Copy global-metadata.dat, libil2cpp.so, unity_decoder.exe and unity_loader_vXX.py to the same folder(like tmp\), then execute unity_decoder.exe. The exe file will make 2 files which name are "method_name.txt" and "string_literal.txt". 
+Copy global-metadata.dat, libil2cpp.so, unity_decoder.exe and unity_loader_vXX.py to the same folder(ex: tmp\), then execute unity_decoder.exe. The exe file will make 2 files which name are "method_name.txt" and "string_literal.txt". 
 
-Load libil2cpp.so on IDA, select File -> Script file..., and "unity_loader_v23.py".
+Load libil2cpp.so on IDA, select File -> Script file..., and "unity_loader_v23.py". By the way, this script not support x86.
 
     # Output window
     offset of method start: 0x521e38L
