@@ -51,3 +51,5 @@ libil2cpp.so in test.apk, have 2 string "This_is_TEST_CODE_1" and "This_is_TEST_
     .data.rel.ro:00521278             DCD StringLiteral_This_is_TEST_CODE_1
     .data.rel.ro:0052127C             DCD StringLiteral_This_is_TEST_CODE_2
     .data.rel.ro:00521280             DCD StringLiteral_JNI__Unknown_generic_array_type__
+
+![](sample.png "sample")
