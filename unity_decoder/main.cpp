@@ -291,20 +291,16 @@ int main()
 	s_GlobalMetadataHeader = (Il2CppGlobalMetadataHeader*)addr;
 
 
-	if (s_GlobalMetadataHeader->version != 21) {
+	if (s_GlobalMetadataHeader->version != 23) {
 		std::cerr << "[error] metadata version is: " << s_GlobalMetadataHeader->version << std::endl;
 	}
-	assert(s_GlobalMetadataHeader->sanity == 0xFAB11BAF);
-	assert(s_GlobalMetadataHeader->version == 21);
-
-
+	assert(s_GlobalMetadataHeader->version == 23);
 
 	stringLiteralFile.open(StringLiteralFileName);
 	int usagePairCount = s_GlobalMetadataHeader->metadataUsageListsCount / sizeof(Il2CppMetadataUsagePair);
 	for (int i = 0; i < usagePairCount; i++) {
 		InitializeMethodMetadata(i);
 	}
-
 
 	int strCount = s_GlobalMetadataHeader->stringLiteralCount / sizeof(Il2CppStringLiteral);
 	stringLiteralFile << strCount << std::endl;
