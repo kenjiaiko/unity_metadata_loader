@@ -43,7 +43,7 @@ The script output method base address and string base address.
     .data.rel.ro:00521E50             DCD CodePointIndexer$$_ctor
     .data.rel.ro:00521E54             DCD CodePointIndexer$$ToIndex
 
-libil2cpp.so in sample.apk, have 2 string "This_is_TEST_CODE_1" and "This_is_TEST_CODE_2".
+libil2cpp.so in test.apk, have 2 string "This_is_TEST_CODE_1" and "This_is_TEST_CODE_2".
 
     .data.rel.ro:0052126C             DCD StringLiteral___0_F1____1_F1__
     .data.rel.ro:00521270             DCD StringLiteral___0_F1____1_F1____2_F1__
