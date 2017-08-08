@@ -32,6 +32,7 @@ Load libil2cpp.so on IDA, select File -> Script file..., and "unity_loader_v23.p
     offset of method start: 0x521e38L
     offset of string finish: 0x5212e4L
 
+
     .data.rel.ro:00521E38 off_521E38  DCD Locale$$GetText     ; DATA XREF: .data.rel.ro:0052DDC0
     .data.rel.ro:00521E3C             DCD Locale$$GetText_0   ; Locale$$GetText
     .data.rel.ro:00521E40             DCD SafeHandleZeroOrMinusOneIsInvalid$$_ctor
@@ -40,6 +41,7 @@ Load libil2cpp.so on IDA, select File -> Script file..., and "unity_loader_v23.p
     .data.rel.ro:00521E4C             DCD SafeWaitHandle$$ReleaseHandle
     .data.rel.ro:00521E50             DCD CodePointIndexer$$_ctor
     .data.rel.ro:00521E54             DCD CodePointIndexer$$ToIndex
+
 
     .data.rel.ro:0052126C             DCD StringLiteral___0_F1____1_F1__
     .data.rel.ro:00521270             DCD StringLiteral___0_F1____1_F1____2_F1__
