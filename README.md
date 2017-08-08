@@ -6,9 +6,9 @@ detail: https://github.com/nevermoe/unity_metadata_loader
 
 ## how to use
 
-'''
-aaaa
-'''
+    git clone https://github.com/kenjiaiko/unity_metadata_loader/
+    cd unity_metadata_loader/unity_decoder
+    mv libil2cpp_v23 libil2cpp
 
 ## Introduction
 
